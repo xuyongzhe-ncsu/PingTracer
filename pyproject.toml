@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pingtracer"
+version = "0.1.0"
+description = ""
+authors = ["XuYongzhe-ethz <99412778+XuYongzhe-ethz@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+icmplib = "^3.0.4"
+scapy = "^2.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

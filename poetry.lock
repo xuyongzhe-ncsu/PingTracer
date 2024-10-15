@@ -1,0 +1,35 @@
+[[package]]
+name = "icmplib"
+version = "3.0.4"
+description = "Easily forge ICMP packets and make your own ping and traceroute."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
+name = "scapy"
+version = "2.6.0"
+description = "Scapy: interactive packet manipulation tool"
+category = "main"
+optional = false
+python-versions = "<4,>=3.7"
+
+[package.extras]
+all = ["cryptography (>=2.0)", "ipython", "matplotlib", "pyx"]
+cli = ["ipython"]
+doc = ["sphinx (>=7.0.0)", "sphinx-rtd-theme (>=1.3.0)", "tox (>=3.0.0)"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9"
+content-hash = "295792cf73871ebc9145340cedd439fe26a22139c756e47569d3ad042659d201"
+
+[metadata.files]
+icmplib = [
+    {file = "icmplib-3.0.4-py3-none-any.whl", hash = "sha256:336b75c6c23c5ce99ddec33f718fab09661f6ad698e35b6f1fc7cc0ecf809398"},
+    {file = "icmplib-3.0.4.tar.gz", hash = "sha256:57868f2cdb011418c0e1d5586b16d1fabd206569fe9652654c27b6b2d6a316de"},
+]
+scapy = [
+    {file = "scapy-2.6.0-py3-none-any.whl", hash = "sha256:6cf241e9b93f3b93bbb48fc259edb1d1f14ba1d88d72c80fb66b3b02eb5493dc"},
+    {file = "scapy-2.6.0.tar.gz", hash = "sha256:c8f7eb54511c2fab502128ccf18e2e4b98e1f6af6e02ae15b84ad3039143ba3b"},
+]
